@@ -1,0 +1,177 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ServiceController!{% endblock %}
+
+{% block body %}
+
+
+
+<style>
+
+@font-face {
+font-family: 'Bebas Neue-Regular';
+src: url('/fonts/BebasNeue-Regular.eot'), url('/fonts/BebasNeue-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+    .example-wrapper { 
+          background-color: #181818c2;
+          height: 100%;
+          width : 100% 
+          
+    }
+
+.label .text-wrapper {
+  margin: 100px;
+  font-family: "Bebas Neue-Regular", Bebas Neue;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 3em;
+  text-align: center;
+  letter-spacing: 11.2px;
+  line-height: 120px;
+  white-space: nowrap;
+}
+
+.section2{
+    background-color: #181818;
+    height: 100%;
+}
+
+.titre {
+
+  font-family: "Bebas Neue-Regular", Bebas Neue;
+  font-weight: 400;
+  height: fit-content;
+  color: #ffffff;
+  text-align: center;
+  margin-top: -5%;
+  padding: 1%;
+  margin-bottom: 5%;
+  letter-spacing: 11.2px; 
+}
+.services_item{
+    display: flex;
+    justify-content: center;
+}
+
+.voitures{
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+.voitures img-fluid2{
+    display: flex;
+}
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateX(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.Lambo{
+    display: flex;
+}
+.reassurance{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5%;
+    padding: auto;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: end;
+    bottom: 0;
+   
+}
+        
+   
+</style>
+
+<div class="example-wrapper">
+   
+    <div class="label"><div class="text-wrapper">Pourquoi nous ?
+        
+    </div></div>
+
+    <div class="reassurance">
+        <div class="card text-bg-dark mb-3 text-center" style="width: 18rem;">
+            <img src="/assets/img/rea1.svg" style="width: 5rem;"  class="card-img-top border-dark mb-3 mx-auto d-block" alt="...">
+            <div class="card-body">
+              <p class="card-text  border-dark mb-3">Location De Voitures De Luxe <br />pour Toutes Les Occasions</p>
+              <p class="card-text  border-dark mb-3">Bienvenue Chez Luxecar, L&#39;endroit Où Les Rêves Automobiles Deviennent Réalité. Nous Mettons À Votre
+                Disposition Une Sélection Exquise De Voitures De Luxe Pour Toutes Les Occasions Spéciales De Votre
+                Vie.&nbsp;&nbsp;Luxecar Est Votre Partenaire De Confiance.</p>
+            </div>
+          </div>
+          <div class="card text-bg-dark mb-3  text-center" style="width: 18rem;">
+            <img src="/assets/img/Frame2.svg" style="width: 5rem;" class="card-img-top mx-auto d-block" alt="...">
+            <div class="card-body">
+             <p class="card-text">Toutes nos voitures</p>
+              <p class="card-text">Toutes Nos Voitures Sont Des Modèles Récents, Méticuleusement Entretenus Et Équipés De Toutes Les
+                Fonctionnalités Nécessaires Pour Une Expérience De Conduite Sans Pareil.</p>
+            </div>
+          </div>
+          <div class="card text-bg-dark mb-3  text-center" style="width: 18rem;">
+            <img src="/assets/img/rea3.svg" style="width: 5rem;" class="card-img-top mx-auto d-block" alt="...">
+            <div class="card-body">
+
+              <p class="card-text"> Devis Gratuit Et Personnalisé</p>
+              <p class="card-text"> Contactez-nous Dès Maintenant Pour Obtenir Un Devis Gratuit Et Sans Engagement. Notre Équipe Dédiée Est
+                Prête À Répondre À Toutes Vos Questions Et À Vous Guider Tout Au Long Du Processus De Réservation.</p>
+            </div>
+          </div>
+    </div>
+
+
+    <div class="frame">
+        
+      
+          </div>
+          
+            
+          <div class="section2">
+            
+            <div class="titre ">
+                <h1>Voici les marques que nous proposons</h1></div>
+               
+                <div class="img-fluid" style="width: 40rem;" >
+                  
+
+                    <div class="card-body">
+                      
+                    </div>
+                   
+                  </div>
+                  <div class="Lambo">
+                   
+                  </div>
+                  <div class="car_img_wrapper d-flex justify-content-center">
+
+                      <img src="/assets/img/Lamborghini3.svg" class="img-fluid" alt="Lamborghini" width="59%" >
+                        <div class="voitures">
+                            
+                            <img src="/assets/img/Audi3.svg" class="img-fluid"    alt="Audi"    >
+                            <img src="/assets/img/Bentley2.svg" class="img-fluid" alt="Bentley" >
+                            <img src="/assets/img/Ferrari1.svg" class="img-fluid" alt="Ferrari" >
+    
+                        </div>
+
+                  </div>
+                 
+          </div>
+    </div>
+    
+    
+
+</div>
+
+{% endblock %}
+

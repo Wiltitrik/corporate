@@ -1,0 +1,15 @@
+body {
+  background-image: "./img/pexels-photo-3422964.webp";
+}
+
+.navbar {
+  display: flex;
+  width: 990px;
+  height: 97px;
+  padding: 10px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 46px;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../assets/styles/app.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EAEI;;;AAIJ;EACI;EACA;EACA;EACA;EACA;EACA;EACA%22,%22file%22:%22app.output.css%22%7D */

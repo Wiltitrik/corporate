@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap");
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  text-align: center;
+  font-size: x-large;
+  margin-top: 100vh;
+  font-family: "Lexend Tera", sans-serif;
+}
+
+main {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.navbar {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 46px;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.a {
+  text-decoration: none;
+  color: white;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../assets/styles/app.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAQ;AACA;AAER;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;;;AAGJ;EACI;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA%22,%22file%22:%22app.output.css%22%7D */

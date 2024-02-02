@@ -1,0 +1,34 @@
+body {
+  background-image: url("../img/pexels-photo-3422964-4fd377d730cde28a921d4d885547d4bf.webp");
+}
+
+/* Styles for the navigation bar */
+nav {
+  background-color: #333; /* Background color for the navbar */
+  overflow: hidden; /* Clear the floats and ensure proper layout */
+}
+
+nav ul {
+  list-style-type: none; /* Remove default list styling */
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Center the navigation items */
+}
+
+nav li {
+  display: inline-block; /* Display list items horizontally */
+  margin-right: 20px; /* Add some spacing between navigation items */
+}
+
+nav a {
+  text-decoration: none; /* Remove underlines from links */
+  color: white; /* Text color for links */
+  padding: 10px 15px; /* Add padding to the links for better clickability */
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #555; /* Background color on hover */
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../assets/styles/app.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AACA;EAEI;;;AAIJ;AACA;EACI;EACA;;;AAGF;EACE;EACA;EACA;EACA;;;AAGF;EACE;EACA;;;AAGF;EACE;EACA;EACA;EACA;;;AAGF;EACE%22,%22file%22:%22app.output.css%22%7D */

@@ -1,0 +1,83 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello AboutController!{% endblock %}
+
+{% block body %}
+<style>
+  .frame {
+
+  width: 100%;
+  height: 100%;
+ 
+  background-color: #181818c2;
+}
+
+.frame .div {
+  margin-top: 10%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 78px;
+  position: relative;
+  margin-left: 2%;
+}
+
+.frame .bienvenue-chez {
+
+ 
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 55px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  
+  color: #ffffff;
+  font-size: 1.2em;
+  letter-spacing: 0.10em;
+  line-height: 180%;
+ 
+}
+
+.frame .nos-valeurs-chez {
+
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 1em;
+  letter-spacing: 0.100em;
+  line-height: 180%;
+}
+
+  
+</style>
+
+ <div class="frame">
+      <div class="div">
+        <p class="bienvenue-chez">
+          Bienvenue chez LuxeCar, une destination où le luxe automobile se marie à la perfection avec l&#39;expérience
+          ultime de conduite. Notre histoire est imprégnée de passion pour les voitures d&#39;exception et de
+          l&#39;engagement inébranlable envers la satisfaction de nos clients. Découvrez l&#39;essence de LuxeCar à
+          travers notre histoire, nos valeurs et notre mission.
+        </p>
+        <p class="nos-valeurs-chez">
+          Nos Valeurs :<br />Chez LuxeCar, nous croyons en des valeurs fondamentales qui guident chacune de nos actions
+          et interactions :<br /> 
+          
+          1. Excellence : Nous nous efforçons constamment d&#39;offrir une expérience de conduite
+          exceptionnelle en fournissant des voitures de luxe impeccables et un service client de premier ordre.<br />
+       
+          2. Intégrité
+          : Nous sommes déterminés à maintenir les normes les plus élevées d&#39;intégrité et de transparence dans
+          toutes nos opérations. La confiance de nos clients est notre priorité absolue.<br />
+          
+          3. Innovation : Nous sommes à
+          la pointe de l&#39;innovation, en intégrant les dernières avancées technologiques et les modèles les plus
+          récents dans notre flotte, pour offrir à nos clients une expérience de conduite moderne et luxueuse.
+        </p>
+      </div>
+    </div>
+{% endblock %}

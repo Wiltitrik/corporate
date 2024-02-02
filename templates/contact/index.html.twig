@@ -1,0 +1,131 @@
+{% extends 'base.html.twig' %}
+
+
+
+{% block title %}Hello ContactController!{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { 
+        background-color: #181818c2;
+        width: 100%;
+        height: 100%;
+     }
+    
+    .form-container {
+        background-color: #1d1c1c;
+        color: white;
+       
+        padding: 120px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        text-align: center;
+    }
+    .body {
+        font-family: "Helvetica Neue-Light", Helvetica, sans-serif;
+       
+        margin: 0;
+        padding: 0;
+      
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    
+    .form {
+        display: flex;
+      
+    }
+    
+    .label {
+        margin-bottom: 8px;
+       
+
+    }
+
+    .contactform{
+        background-color: #9b9b9b80;
+        border-radius: 2%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    
+    .input,
+    .select,
+    .textarea {
+        padding: 10px;
+        margin-bottom: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    .button {
+        background-color: #4caf50;
+        color: #fff;
+        padding: 12px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    .button:hover {
+        background-color: #45a049;
+    }
+    .custom-font {
+        font-family: "Helvetica Neue-Light", Helvetica, sans-serif;
+    }
+    
+
+</style>
+
+<div class="example-wrapper">
+
+
+  <!-- Ajoutez ces classes personnalisées à vos éléments -->
+<div class="contact d-flex flex-column justify-content-center align-items-center w-100 p-5 text-white">
+    <form class="contact__background w-75 p-4">
+        <div class="contact__content text-center">
+          
+            <div class="contactform">
+                <div class="contact__texte">
+                    <p class="contact__title p-3">Contact</p>
+                    <p class="contact__subtitle">Vous avez une question? <br> Appelez nous au +33 6 12 34 56 78 ,<br> envoyez nous un mail à contact@luxecar.fr ou laissez un message:</p>
+                </div>
+                <div class="Formulaire d-flex flex-column justify-content-center align-items-center gap-3 w-100">
+                    <div class="label w-50">
+                        <input type="text" id="Nom" class="form-control bg-transparent text-light custom-font" placeholder="Name">
+                    </div>
+                    <div class="label w-50 text-light">
+                        <input type="text" id="Email" class="form-control bg-transparent text-light custom-font" placeholder="Email">
+                    </div>
+                    <div class="label w-50">
+                        <input type="text" id="Sujet" class="form-control bg-transparent text-light custom-font" placeholder="Subject">
+                    </div>
+                    <div class="label2 w-50">
+                        <div class="label">
+                            <textarea class="form-control bg-transparent text-light custom-font" placeholder="Entrez votre message ici" id="floatingTextarea2" style="height: 165px"></textarea>
+                        </div>
+                    </div> 
+
+            </div>
+           
+                <div class="d-flex justify-content-end align-items-center w-50">
+                    <div class="sign">
+                        <button type="button" class="btn btn-secondary custom-font">Envoyer</button>
+                        <p class="contact__subtitle--2">12 rue du Paradis, 80000 Amiens, France</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+ </form>
+
+</div>
+{% endblock %}
